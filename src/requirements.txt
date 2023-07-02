@@ -1,0 +1,5 @@
+pycryptodome
+httpx
+psutil
+pillow
+pywin32
