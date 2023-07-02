@@ -9,14 +9,14 @@ This project logs session cookies. This means that your cookie may expire, unlik
 
 ## What's Supported?
 Windows only.
-**- Guilded (desktop app)
-- Reguilded (modified desktop app)
-- Google Chrome
-- Google Chrome Canary (Google Chrome SxS)
-- Microsoft Edge
-- Opera
-- Opera GX
-- Brave**
+- **Guilded (desktop app)**
+- **Reguilded (modified desktop app)**
+- **Google Chrome**
+- **Google Chrome Canary (Google Chrome SxS)**
+- **Microsoft Edge**
+- **Opera**
+- **Opera GX**
+- **Brave**
 - Iridium (UNTESTED)
 - Yandex (UNTESTED)
 - Uran (UNTESTED)
