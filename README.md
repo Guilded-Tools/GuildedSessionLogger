@@ -4,7 +4,10 @@ A token logger; except for Guilded!
 ### POC
 This repository is a proof of concept. The owner(s) and member(s) of this repository and organization take no responsibility for your actions.
 
-### What's Supported?
+### Important
+This project logs session cookies. This means that your cookie may expire, unlike Discord tokens.
+
+## What's Supported?
 Windows only.
 - Guilded (desktop app)
 - Reguilded (modified desktop app)
@@ -33,7 +36,7 @@ Issues and pull requests welcome!
 If you tested this on a UNTESTED browser, make an issue!
 
 # License
-Read the [License](License.MD)
+Read the [License](LICENSE)
 
 # Logging in with a cookie
 (Desktop only)
@@ -50,9 +53,6 @@ function login(sessionCookie) {
 var loginCookie = 'your cookie in quotes or apostrophe here';
 login(loginCookie);
 ```
-
-# Sessions and Cookies
-This project logs session cookies. This means that your cookie may expire, unlike Discord tokens.
 
 # Making a request with a cookie
 So you want to make a selfbot of a sort?
