@@ -17,6 +17,7 @@ Windows only.
 - **Opera**
 - **Opera GX**
 - **Brave**
+- **Firefox**
 - Iridium (UNTESTED)
 - Yandex (UNTESTED)
 - Uran (UNTESTED)
