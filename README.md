@@ -58,7 +58,9 @@ login(loginCookie);
 ```
 
 # Making a request with a cookie
-So you want to make a selfbot of a sort?
+So you want to make a selfbot of a sort? You should be using `guilded.py==1.0.0`'s system; it's more efficient!
+
+But without an email/password, this'll have to do...
 
 ### Headers
 These headers stay the same for most requests. You can always check the headers in the Network tab of Dev Tools if needed!
