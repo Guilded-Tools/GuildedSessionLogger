@@ -1,6 +1,8 @@
 # Guilded Session Logger
 A token logger; except for Guilded!
 
+Enjoyed the repository? Please star it!
+
 ### POC
 This repository is a proof of concept. The owner(s) and member(s) of this repository and organization take no responsibility for your actions.
 
