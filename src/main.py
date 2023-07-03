@@ -9,6 +9,7 @@ config = {
     'hide_self': 'Advanced', # False, True, 'Advanced'
     # Advanced hide_self will set the file as a windows system file, and a normal "Show hidden files" won't work
     # This also makes it slightly harder to show it again.
+    # Recommended not to use 'Advanced' mode for testing; makes it hard to undo/find.
     'anti_debug': True, # False, True
     # Opens the rickroll if the script is run inside a VM/Sandbox.
     'kill_processes': True, # False, True
